@@ -85,16 +85,16 @@ form {
 	word-wrap: break-word;
 	font-size: 1.2em;
 	letter-spacing: 2px;
+	line-height: auto;
 	font-family: 'Englebert', sans-serif;
 }
 
+
 #monster_return {
-	background: url(img/mouth-top.png) no-repeat center top; 
 	background-size: 100%;
 	text-align: center;
 	font-size: 1em;
 	color: #FFF;
-	overflow: hidden;
 }
 
 .reveal {
