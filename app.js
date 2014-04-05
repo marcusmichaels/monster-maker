@@ -167,7 +167,7 @@ function generateName(form){
 					console.log("Say goodbye to " + hooman + " and hello to " + monstah + "!");
 					
 					var node = document.getElementById('monster_return');
-					node.innerHTML = "<div class='mouth-strip'><img src='img/mouth-bg-top.png' /></div><div class='mouthbg'>Goodbye " + hooman + ". Hello <div class='reveal'>" + monstah + "!</div></div><div class='mouth-strip'><img src='img/mouth-bg-bottom.png' /></div>";
+					node.innerHTML = "<div class='mouth-strip'><img src='img/mouth-bg-top.png' /></div><div class='mouthbg'>Say goodbye to " + hooman + ", and hello to <div class='reveal'>" + monstah + "!</div></div><div class='mouth-strip'><img src='img/mouth-bg-bottom.png' /></div>";
 	
 					console.log("Script has finished");
 		} else {
