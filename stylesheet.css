@@ -80,8 +80,10 @@ form {
 }
 
 .mouthbg {
+	width:100%;
 	background: url(img/bg.png) repeat; 
 	margin-top:-5px;
+	word-wrap: break-word;
 }
 
 #monster_return {
