@@ -24,6 +24,7 @@ body {
 
 .logo img {
 	width:100%;
+	min-height: 100%;
 }
 
 h1{
@@ -113,6 +114,7 @@ form {
 
 	.logo img{
 		width:60%;
+		min-height: 100%;
 	}
 
 	h1 {
