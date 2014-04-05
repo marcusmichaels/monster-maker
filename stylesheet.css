@@ -98,7 +98,8 @@ form {
 
 .reveal {
 	font-size: 4em;
-	padding-top: 20px;
+	padding: 20px 0;
+	line-height: 1em;
 	font-family: 'Metal Mania', cursive;
 }
 
