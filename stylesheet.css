@@ -64,19 +64,25 @@ form {
 	border:0;
 	border-left: 5px solid #DDD;
 	outline:0;
-	margin-bottom: 1em;
+	margin-bottom: 0.8em;
 	text-align: center;
 }
 
 .button {
 	width:80%;
 	margin:auto;
-	padding: 0.5em 0;
+	padding: 0.4em 0;
 	border:0;
 	outline:0;
 	background-color: #CCC;
 	font-size: 2em;
 	border-bottom: 4px solid #AAA;
+}
+
+.button:hover {
+	background-color: #BBB;
+	border-bottom: none;
+	margin-top:4px;
 }
 
 .mouthbg {
