@@ -1,7 +1,6 @@
 
 function generateName(form){
 	var old_name = form.realname.value.toLowerCase();
-	console.log(old_name);
 	var split_name = old_name.split("");
 	var new_name = "";
 	var hooman = "";
@@ -161,15 +160,12 @@ function generateName(form){
 					hooman = capitaliseName(old_name);
 					monstah = capitaliseName(new_name);
 	
-					console.log (new_name);
-					console.log(monstah);
-	
 					console.log("Say goodbye to " + hooman + " and hello to " + monstah + "!");
 					
 					var node = document.getElementById('monster_return');
 					node.innerHTML = "<div class='mouth-strip'><img src='img/mouth-bg-top.png' /></div><div class='mouthbg'>Say goodbye to " + hooman + ", and hello to <div class='reveal'>" + monstah + "!</div></div><div class='mouth-strip'><img src='img/mouth-bg-bottom.png' /></div>";
 	
-					console.log("Script has finished");
+					console.log("Thanks for visiting The Monster Maker Name Generator by Marcus Michaels, you'll be pleased to know that the script has run and is now finished :)");
 		} else {
 			alert("You gotta use real letters, thems the rules!");
 	}
