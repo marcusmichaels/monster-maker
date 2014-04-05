@@ -108,11 +108,11 @@ form {
 	}
 
 	.logo{
-		margin-top:1em;
+		margin-top:0.8em;
 	}
 
 	.logo img{
-		width:70%;
+		width:60%;
 		overflow: hidden;
 		height: auto;
 	}
