@@ -76,6 +76,7 @@ form {
 	outline:0;
 	background-color: #CCC;
 	font-size: 2em;
+	border-bottom: 4px solid #AAA;
 }
 
 .mouthbg {
