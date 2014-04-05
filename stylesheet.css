@@ -108,7 +108,7 @@ form {
 	}
 
 	.logo{
-		margin-top:20px;
+		margin-top:1em;
 	}
 
 	.logo img{
@@ -120,7 +120,7 @@ form {
 	h1 {
 		font-size: 1em;
 		padding:20px;
-		margin-top: 1em;
+		margin-top: 0.4em;
 	}
 
 	form {
