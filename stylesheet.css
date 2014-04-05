@@ -16,9 +16,14 @@ body {
 }
 
 .logo{
+	max-width:210px;
 	padding-top:20px;
 	margin:auto;
 	text-align: center;
+}
+
+.logo img {
+	width:100%;
 }
 
 h1{
@@ -26,6 +31,7 @@ h1{
 	text-align: center;
 	font-weight: normal;
 	margin-top: 2em;
+	font-style: italic;
 }
 
 h2 {
@@ -101,6 +107,14 @@ form {
 		font-size: 16px;
 	}
 
+	.logo{
+		margin-top:20px;
+	}
+
+	.logo img{
+		width:60%;
+	}
+
 	h1 {
 		font-size: 1em;
 		padding:20px;
@@ -113,11 +127,11 @@ form {
 	}
 
 	.text, .text:focus {
-		font-size: 1.6em;
+		font-size: 1em;
 	}
 
 	.button {
-		font-size: 1.6em;
+		font-size: 1em;
 	}
 
 
